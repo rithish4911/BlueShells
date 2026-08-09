@@ -1,0 +1,247 @@
+<style>
+  /* Core layout grid for profile cards */
+  .profile-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  }
+
+  /* Clean profile card container */
+  .profile-card {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  /* GENTLE HOVER EFFECT for attractiveness */
+  .profile-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+  }
+
+  /* Profile picture style (fixed width is best) */
+  .profile-img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    border-radius: 50%; /* Circle looks more modern for profiles */
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+
+  /* Modern typography for names */
+  .profile-card h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1a365d;
+    margin: 0 0 10px 0;
+  }
+
+  /* Clean, non-underlined links */
+  .profile-card a {
+    font-size: 14px;
+    color: #2b6cb0;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s;
+  }
+
+  .profile-card a:hover {
+    color: #1a365d;
+    text-decoration: underline;
+  }
+</style>
+
+<div style="text-align:center;margin-bottom:0px; ">
+  <a href="#"><img src="logo22.png" style="width: 250px; height: auto;"></a>
+</div>
+
+<div style="text-align: center;margin-top:0px;">
+<a style="padding-right: 30px;" href="index.html">Home</a>
+<a style="padding-right: 30px;" href="tools.html">Tools</a>
+<a style="padding-right: 30px;" href="services.html">Services</a>
+<a style="padding-right: 30px;" href="about.html">About</a>
+</div>
+
+<h1 style="font-size:40px;text-align:center;margin-top:50px;">Meet the Minds Behind Blue Shells</h1>
+
+<p style="font-size:20px;text-align:center;line-height: 30px;margin-bottom: 50px;">Combining expertise in hardware, software, and aquaculture engineering to solve real-world farming challenges.</p>
+
+
+
+<hr>
+
+<style>
+  /* Container to line up team members vertically */
+  .profile-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin: 40px auto;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  }
+
+  /* Completely borderless container for each person */
+  .profile-card {
+    text-align: center;
+    background: none;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+  }
+
+  /* Rectangular photo with subtle rounded edges */
+  .profile-img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto 12px auto;
+    border: none;
+    box-shadow: none;
+  }
+
+  .profile-card h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1a365d;
+    margin: 0 0 6px 0;
+  }
+
+  .profile-card a {
+    font-size: 15px;
+    color: #2b6cb0;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .profile-card a:hover {
+    text-decoration: underline;
+  }
+</style>
+
+
+
+<div class="profile-grid">
+  <!-- Your HTML code continues here -->
+
+<style>
+  /* Stack cards ONE BY ONE in a single column */
+  .profile-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 0 20px;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  }
+
+  .profile-card {
+    width: 100%;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .profile-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .profile-img {
+    width: 100%;
+    height: auto;
+    max-width: 220px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+
+  .profile-card h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1a365d;
+    margin: 0 0 10px 0;
+  }
+
+  .profile-card a {
+    font-size: 15px;
+    color: #2b6cb0;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .profile-card a:hover {
+    text-decoration: underline;
+  }
+</style>
+
+<div class="profile-grid">
+  
+  <!-- Sharath -->
+  <div class="profile-card">
+    <img src="sharath.jpeg" class="profile-img" alt="Sharath">
+    <h2>Sharath</h2>
+    <a href="ce2.pdf" target="_blank">View Certificate →</a>
+  </div>
+
+  <!-- Samarth Raj V -->
+  <div class="profile-card">
+    <img src="sam.png" class="profile-img" alt="Samarth Raj V">
+    <h2>Samarth Raj V</h2>
+    <a href="ce1.pdf" target="_blank">View Certificate →</a>
+  </div>
+
+  <!-- Bhuvan Gowda C J -->
+  <div class="profile-card">
+    <img src="bhuvan.jpeg" class="profile-img" alt="Bhuvan Gowda C J">
+    <h2>Bhuvan Gowda C J</h2>
+    <a href="ce3.pdf" target="_blank">View Certificate →</a>
+  </div>
+
+  <!-- Ranjan -->
+  <div class="profile-card">
+    <img src="ranjan.jpeg" class="profile-img" alt="Ranjan">
+    <h2>Ranjan</h2>
+    <a href="ce4.pdf" target="_blank">View Certificate →</a>
+  </div>
+
+  <!-- Rithish M B -->
+  <div class="profile-card">
+    <img src="rithi.png" class="profile-img" alt="Rithish M B">
+    <h2>Rithish M B</h2>
+    <a href="ce5.pdf" target="_blank">View Certificate →</a>
+  </div>
+
+  <!-- Arun Narayana Naik -->
+  <div class="profile-card">
+    <img src="arun.png" class="profile-img" alt="Arun Narayana Naik">
+    <h2>Arun Narayana Naik</h2>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
